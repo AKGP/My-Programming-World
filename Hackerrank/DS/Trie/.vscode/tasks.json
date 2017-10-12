@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "contact",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "contact.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

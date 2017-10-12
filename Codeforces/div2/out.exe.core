@@ -1,0 +1,21 @@
+[main] out 1000 (0) exception: trapped!
+[main] out 1000 (0) exception: code 0xC0000094 at 0x40109A
+[main] out 1000 (0) exception: ax 0x6 bx 0x246FE84 cx 0x6 dx 0x0
+[main] out 1000 (0) exception: si 0x60 di 0xC bp 0x246FE7C sp 0x246FE64
+[main] out 1000 (0) exception: exception is: STATUS_INTEGER_DIVIDE_BY_ZERO
+[main] out 1000 (0) stack: Stack trace:
+[main] out 1000 (0) stack: frame 0: sp = 0x246F7F0, pc = 0x6100A2C3
+[main] out 1000 (0) stack: frame 1: sp = 0x246F82C, pc = 0x77422D72
+[main] out 1000 (0) stack: frame 2: sp = 0x246F850, pc = 0x77422D44
+[main] out 1000 (0) stack: frame 3: sp = 0x246F91C, pc = 0x774108EF
+[main] out 1000 (0) stack: frame 4: sp = 0x246FE7C, pc = 0x40113A
+[main] out 1000 (0) stack: frame 5: sp = 0x246FEB0, pc = 0x401274
+[main] out 1000 (0) stack: frame 6: sp = 0x246FF08, pc = 0x61004402
+[main] out 1000 (0) stack: frame 7: sp = 0x246FF48, pc = 0x61004420
+[main] out 1000 (0) stack: frame 8: sp = 0x246FF54, pc = 0x41333E
+[main] out 1000 (0) stack: frame 9: sp = 0x246FF64, pc = 0x40103A
+[main] out 1000 (0) stack: frame 10: sp = 0x246FF80, pc = 0x76EF62C4
+[main] out 1000 (0) stack: frame 11: sp = 0x246FF94, pc = 0x77400FD9
+[main] out 1000 (0) stack: frame 12: sp = 0x246FFDC, pc = 0x77400FA4
+[main] out 1000 (0) stack: frame 13: sp = 0x246FFEC, pc = 0x0
+[main] out 1000 (0) stack: End of stack trace

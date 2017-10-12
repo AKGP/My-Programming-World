@@ -1,0 +1,62 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                     "C:/Program Files (x86)/Microsoft Visual Studio 11.0/VC/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 2
+}

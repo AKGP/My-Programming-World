@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        { 
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "${workspaceRoot}/out.exe",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "preLaunchTask":"contact"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/out.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}
