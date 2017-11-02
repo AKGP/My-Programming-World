@@ -5,12 +5,14 @@
 #include <algorithm>
 #include <map>
 #include <string>
+
+const int ALPHABATE_SIZE = 26;
 using namespace std;
 
-typedef struct trie{
-    map<char,trie> M;
+struct TrieNode{
+    Trie *children[ALPHABATE_SIZE];
     bool endOfWord;
-}Trie;
+};
 
 int main()
 {
